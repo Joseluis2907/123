@@ -19,4 +19,6 @@
     <string name="Contacto">Contacto</string>
     <string name="Correo">Jose.luis.munoz.avalos@gmail.com</string>
     <string name="title_activity_creditos">creditos</string>
+    <string name="calexamen">Calcular examen</string>
+    <string name="ingresoexa">Ingrese la nota de presentacion a examen</string>
 </resources>

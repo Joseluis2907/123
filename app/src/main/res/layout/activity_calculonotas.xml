@@ -177,16 +177,18 @@
             android:inputType="numberDecimal"
             android:maxLength="2"
             android:textSize="12sp" />
-    </TableRow>
 
-    <ImageButton
-        android:id="@+id/button"
-        android:layout_width="181dp"
-        android:layout_height="60dp"
-        android:background="@android:color/background_light"
-        android:contentDescription=""
-        app:srcCompat="@drawable/button"
-        tools:ignore="ContentDescription" />
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="181dp"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:contentDescription=""
+            app:srcCompat="@drawable/button"
+            tools:ignore="ContentDescription" />
+
+
+    </TableRow>
 
     <TextView
         android:id="@+id/textView13"
@@ -209,5 +211,13 @@
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/descarga"
         tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnexa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="@string/calexamen"
+        tools:text="Calcular examen" />
 
 </TableLayout>

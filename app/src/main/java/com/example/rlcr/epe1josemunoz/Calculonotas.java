@@ -39,7 +39,7 @@ public class Calculonotas extends AppCompatActivity {
     ImageButton button;
     TextView tvresult;
     ImageButton acerca;
-
+    Button btnexa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -57,12 +57,22 @@ public class Calculonotas extends AppCompatActivity {
         this.tvresult=(TextView)findViewById(R.id.tvresult);
         button=(ImageButton)findViewById(R.id.button);
         acerca=(ImageButton)findViewById(R.id.acerca);
+        btnexa=(Button)findViewById(R.id.btnexa);
         acerca.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v)
             {
                 Intent acerca  = new Intent (Calculonotas.this,credito.class);
                 startActivity(acerca);
+
+            }
+        });
+        btnexa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent notaexamen  = new Intent (Calculonotas.this,notaexamen.class);
+                startActivity(notaexamen);
+
 
             }
         });
